@@ -3,6 +3,7 @@ package pe.edu.vallegrande.eggs.model;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;
+
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
@@ -17,5 +18,4 @@ public class EggProductionModel {
     private Integer eggsKilo;
     private BigDecimal priceKilo;
     private LocalDate registrationDate;
-    private Integer hensId;
 }
